@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkas Investigasi Pembunuhan Munir Said Thalib (GA-974)</title>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --accent: #b91c1c;
+            --secondary: #334155;
+            --light-bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --text-dark: #0f172a;
+            --text-muted: #64748b;
+            --warning-bg: #fffbeb;
+            --warning-border: #f59e0b;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            border-bottom: 3px double var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .badge-case {
+            background-color: var(--accent);
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: var(--primary);
+            margin: 0 0 10px 0;
+            font-weight: 800;
+        }
+
+        .meta-info {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--primary);
+            border-left: 4px solid var(--accent);
+            padding-left: 12px;
+            margin-top: 36px;
+            margin-bottom: 16px;
+        }
+
+        p, li {
+            font-size: 15px;
+            color: var(--secondary);
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .data-table th, .data-table td {
+            border: 1px solid var(--border-color);
+            padding: 12px 14px;
+            text-align: left;
+        }
+
+        .data-table th {
+            background-color: #f1f5f9;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .callout {
+            background-color: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .callout-warning {
+            background-color: var(--warning-bg);
+            border-left: 4px solid var(--warning-border);
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 24px 0;
+            padding-left: 28px;
+            border-left: 2px solid var(--border-color);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 24px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -35px;
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--accent);
+            border: 2px solid #ffffff;
+        }
+
+        .timeline-time {
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 13px;
+        }
+
+        .timeline-title {
+            font-weight: 600;
+            color: var(--primary);
+            margin: 2px 0 6px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge-case">Dokumen Kompilasi Fakta Perkara</span>
+        <h1>Kajian Bukti & Rekonstruksi Kasus Kematian Munir Said Thalib (GA-974)</h1>
+        <div class="meta-info">
+            <strong>Subjek:</strong> Munir Said Thalib (1965–2004) | 
+            <strong>Penerbangan:</strong> Garuda Indonesia GA-974 (Jakarta–Singapura–Amsterdam) | 
+            <strong>Penyebab Kematian:</strong> Keracunan Arsenik Akut (As₂O₃)
+        </div>
+    </header>
+
+    <!-- BAGIAN 1: ALIRAN DANA & TRANSAKSI -->
+    <section>
+        <h2>1. Bukti Aliran Dana & Penarikan Finansial Pihak Ketiga</h2>
+        <p>Berdasarkan laporan penyelidikan Tim Pencari Fakta (TPF) Munir serta Berita Acara Pemeriksaan (BAP) di persidangan para terdakwa:</p>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Komponen Penyelidikan</th>
+                    <th>Fakta & Temuan Hukum</th>
+                    <th>Status / Implikasi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Pemeriksaan Rekening Perbankan (PPATK)</strong></td>
+                    <td>PPATK menyatakan bahwa tidak ditemukan transaksi elektronik mencurigakan dalam jumlah signifikan melalui transfer perbankan formal atas nama Pollycarpus Budihari Priyanto menjelang insiden. Operasi ini dinilai dilakukan menggunakan pola transaksi tunai terputus (<em>cash off-the-books</em>).</td>
+                    <td>Jejak rekening formal sengaja tidak digunakan untuk mencegah audit forensik perbankan.</td>
+                </tr>
+                <tr>
+                    <td><strong>Kesaksian Dana Operasional (BAP Budi Santoso)</strong></td>
+                    <td>Budi Santoso (Direktur V.1 Perencanaan dan Pengendalian Operasi BIN saat itu) dalam BAP-nya (2007) mengungkap adanya pemberian dana tunai operasional sebesar <strong>Rp 10.000.000,-</strong> kepada Pollycarpus terkait tugas di lingkungan Badan Intelijen Negara (BIN).</td>
+                    <td>BAP ini sempat dibacakan di sidang pengadilan, namun Budi Santoso mencabut keterangannya melalui surat dari KBRI Pakistan dan tidak hadir di pengadilan secara fisik.</td>
+                </tr>
+                <tr>
+                    <td><strong>Dana Perjalanan & Kompensasi Garuda</strong></td>
+                    <td>Pollycarpus menerima uang saku perjalanan dinas dan fasilitas tiket sebagai staf perbantuan penugasan keamanan (<em>Corporate Security</em>) senilai anggaran resmi maskapai untuk transit Jakarta–Singapura.</td>
+                    <td>Digunakan sebagai kedok administratif guna membiayai mobilitas pelaku lapangan.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- BAGIAN 2: BERKAS PEMBELIAN TIKET & SURAT PENUGASAN -->
+    <section>
+        <h2>2. Berkas Tiket Pesawat & Administrasi Penugasan Janggal</h2>
+        
+        <div class="callout">
+            <h3 style="margin-top:0; color:#1e3a8a;">Berkas Tiket Munir Said Thalib:</h3>
+            <ul>
+                <li><strong>Nomor Tiket:</strong> Tiket resmi Garuda Indonesia Kelas Ekonomi untuk rute CGK (Jakarta) &rarr; SIN (Singapura) &rarr; AMS (Schiphol, Amsterdam).</li>
+                <li><strong>Nomor Kursi Awal:</strong> <strong>40G</strong> (Kabin Ekonomi).</li>
+                <li><strong>Tujuan Keberangkatan:</strong> Melanjutkan studi pascasarjana bidang Hukum Humaniter dan HAM di Utrecht University, Belanda (dibiayai beasiswa The Ford Foundation).</li>
+            </ul>
+        </div>
+
+        <div class="callout-warning">
+            <h3 style="margin-top:0; color:#92400e;">Berkas Manipulasi Administratif (Surat Tugas Palsu):</h3>
+            <ul>
+                <li><strong>Surat Penugasan No. GA/DZ-2270/04 (11 Agustus 2004):</strong> Ditandatangani oleh Direktur Utama PT Garuda Indonesia saat itu, Indra Setiawan. Surat ini menempatkan Pollycarpus (pilot Airbus A330 yang saat itu sedang cuti tugas terbang) menjadi staf perbantuan unit <em>Corporate Security</em> Garuda.</li>
+                <li><strong>Perubahan Manifes Terbang (Extra Crew):</strong> Rohainil Aini (Chief Secretary Pilot Airbus 330) atas permintaan telepon Pollycarpus memasukkan nama Pollycarpus ke dalam manifes penerbangan GA-974 tanggal 6 September 2004 sebagai kru tambahan (<em>aviation security</em>), bukan sebagai pilot yang bertugas.</li>
+                <li><strong>Alokasi Kursi Bisnis:</strong> Pollycarpus mendapatkan boarding pass kursi <strong>3K</strong> (Kelas Bisnis) yang nantinya digunakan sebagai alat tukar tempat duduk dengan Munir.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- BAGIAN 3: JEJAK KOMUNIKASI DAN TELEPON TERAKHIR -->
+    <section>
+        <h2>3. Rekaman Komunikasi & Kontak Terakhir</h2>
+        <p>Berdasarkan pembacaan data <em>Call Detail Record</em> (CDR) operator seluler Telkomsel dan Indosat dalam proses pro-justitia:</p>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Pihak Penghubung</th>
+                    <th>Pihak Penerima</th>
+                    <th>Rincian Catatan Komunikasi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Pollycarpus B. Priyanto</strong></td>
+                    <td><strong>Munir Said Thalib (diterima Suciwati)</strong></td>
+                    <td>Beberapa hari sebelum 6 September 2004, Pollycarpus menelepon kediaman Munir. Ponsel Munir tertinggal sehingga diterima istrinya, Suciwati. Pollycarpus menanyakan secara spesifik kepastian hari dan jadwal penerbangan Munir ke Belanda.</td>
+                </tr>
+                <tr>
+                    <td><strong>Munir Said Thalib</strong></td>
+                    <td><strong>Suciwati (Keluarga)</strong></td>
+                    <td>Panggilan telepon pribadi terakhir Munir dilakukan dari Bandara Soekarno-Hatta (Cengkareng) sesaat sebelum naik ke pesawat GA-974 pada 6 September 2004 malam untuk berpamitan kepada sang istri.</td>
+                </tr>
+                <tr>
+                    <td><strong>Pollycarpus B. Priyanto</strong></td>
+                    <td><strong>Muchdi Purwoprandjono (Deputi V BIN)</strong></td>
+                    <td>Ditemukan data lalu lintas komunikasi intensif sebanyak <strong>35 hingga 41 kali panggilan</strong> antara ponsel Pollycarpus dengan ponsel resmi Muchdi PR (0811900xxx) serta saluran khusus privat kantor Badan Intelijen Negara (<em>Direct Inward Dialing</em>) sepanjang Agustus hingga November 2004.</td>
+                </tr>
+                <tr>
+                    <td><strong>Pollycarpus B. Priyanto</strong></td>
+                    <td><strong>Indra Setiawan (Mantan Dirut Garuda)</strong></td>
+                    <td>Rekaman percakapan saat Indra Setiawan berada dalam penahanan di Bareskrim Polri. Rekaman ini sempat diajukan jaksa sebagai novum, di mana Polly meminta Indra tetap tenang dan menyebut upaya pengondisian hukum.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- BAGIAN 4: KRONOLOGI SITUASI DI PESAWAT GA-974 -->
+    <section>
+        <h2>4. Kronologi Situasi Perjalanan GA-974 (6–7 September 2004)</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-time">6 September 2004 | 21.55 WIB</div>
+                <div class="timeline-title">Lepas Landas dari Jakarta Menuju Singapura (Leg 1)</div>
+                <p>Munir naik ke kabin pesawat. Di lorong kabin, Pollycarpus menyapa Munir dan menawarkan pertukaran kursi dari kursi ekonomi <strong>40G</strong> ke kursi bisnis <strong>3K</strong> milik Polly. Di kabin bisnis, Munir disajikan minuman (diduga <em>orange juice</em>). Munir meminumnya selama perjalanan menuju Singapura.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-time">7 September 2004 | 00.40 Waktu Singapura</div>
+                <div class="timeline-title">Transit di Bandara Changi &amp; Interaksi Kafe</div>
+                <p>Pesawat transit di Bandara Changi, Singapura. Sebagian penumpang transit keluar menuju ruang tunggu terminal. Munir menuju gerai <em>The Coffee Bean & Tea Leaf</em> bersama saksi lain. Pollycarpus dan saksi Ongen Latuihamallo terlihat berada di sekitar lokasi. Pollycarpus menghentikan perjalanannya di Singapura dan kembali ke Jakarta keesokan harinya.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-time">7 September 2004 | 01.50 Waktu Singapura</div>
+                <div class="timeline-title">Keberangkatan Leg 2 Menuju Schiphol (Amsterdam)</div>
+                <p>Pesawat lepas landas untuk penerbangan jarak jauh tanpa henti (12 jam penerbangan). Munir kembali menduduki kursi aslinya di Kelas Ekonomi (kursi 40G).</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-time">7 September 2004 | 04.50–06.00 Waktu Penerbangan</div>
+                <div class="timeline-title">Onset Keracunan Akut di Ketinggian Jelajah</div>
+                <p>Sekitar 3 jam setelah lepas landas dari Changi, Munir mulai mengalami kram perut hebat, mual, muntah tanpa henti, dan diare akut. Beliau bolak-balik ke toilet kabin belakang puluhan kali. Kondisinya melemah drastis akibat dehidrasi parah dan kerusakan organ dalam.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-time">7 September 2004 | 06.30–07.30 Waktu Penerbangan</div>
+                <div class="timeline-title">Pertolongan Medis Darurat oleh dr. Tarmizi Hakim</div>
+                <p>Purser kabin (Najib Radjab) melaporkan kondisi darurat penumpang kepada Pilot in Command Capt. Pantun Matondang. Diumumkan panggilan dokter darurat. Penumpang <strong>dr. Tarmizi Hakim</strong> (ahli bedah toraks dan vaskular RS Harapan Kita yang duduk di 1J) segera memberikan pertolongan. Munir dipindahkan ke kursi dekat dr. Tarmizi dan disuntik obat anti-mual (Primperan) serta penenang dosis rendah. Munir sempat beristirahat.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-time">7 September 2004 | Sekitar 06.10 UTC (Dua Jam Sebelum Pendaratan)</div>
+                <div class="timeline-title">Munir Said Thalib Dinyatakan Meninggal Dunia</div>
+                <p>Saat melintasi wilayah udara Eropa Tengah (Rumania/Hongaria), purser dan dr. Tarmizi memeriksa denyut nadi dan pupil mata Munir. Munir ditemukan telah meninggal dunia di kursinya dengan mulut mengeluarkan busa serta air liur. Jenazah dipindahkan dan ditutup selimut di kabin belakang hingga mendarat di Amsterdam Schiphol pada pukul 08.10 waktu setempat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN 5: ANALISIS REKAMAN CCTV & DATA FORENSIK -->
+    <section>
+        <h2>5. Analisis Log CCTV Pesawat &amp; Forensik Digital</h2>
+        <div class="callout-warning">
+            <h3 style="margin-top:0; color:#92400e;">Fakta Teknis: Log CCTV Kabin Pesawat (In-Flight CCTV)</h3>
+            <p><strong>Tidak ada rekaman CCTV kabin penumpang di dalam pesawat GA-974.</strong></p>
+            <ul>
+                <li><strong>Standar Armada Komersial 2004:</strong> Pada tahun 2004, pesawat komersial berbadan lebar (seperti Boeing 747-400 yang digunakan dalam GA-974) secara regulasi keselamatan penerbangan internasional (ICAO/FAA) <em>tidak memasang kamera CCTV pengawas di area kabin penumpang</em>. Kamera kokpit saat itu hanya mengarah ke pintu kokpit untuk keamanan kokpit pasca-tragedi 11 September.</li>
+                <li><strong>Instrumen Rekaman yang Tersedia:</strong> Pesawat hanya memiliki <em>Cockpit Voice Recorder</em> (CVR) yang merekam audio di ruang kemudi dan <em>Flight Data Recorder</em> (FDR) untuk parameter mekanis pesawat. CVR tidak mencakup percakapan personal di kabin penumpang ekonomi maupun bisnis.</li>
+            </ul>
+        </div>
+
+        <p><strong>Rekaman CCTV yang Ditelusuri Tim Penyidik & TPF:</strong></p>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Titik Rekaman</th>
+                    <th>Lokasi Kamera</th>
+                    <th>Hasil Analisis Forensik Video</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Bandara Changi (Terminal 2)</strong></td>
+                    <td>CCTV lorong transit dan area koridor publik menuju Terminal transit Changi, Singapura.</td>
+                    <td>Rekaman visual menunjukkan keberadaan fisik Munir, Pollycarpus, serta saksi-saksi kru Garuda saat melintasi terminal. Namun kamera berada di sudut umum (<em>wide angle surveillance</em>) dan tidak memiliki tangkapan jarak dekat (<em>close up</em>) ke arah meja kedai kopi The Coffee Bean & Tea Leaf.</td>
+                </tr>
+                <tr>
+                    <td><strong>Bandara Soekarno-Hatta (Terminal 2D)</strong></td>
+                    <td>Pintu keberangkatan dan area imigrasi internasional Jakarta.</td>
+                    <td>Merekam waktu masuk Munir melalui proses boarding resmi dan kehadiran Pollycarpus yang melenggang melalui akses personel maskapai.</td>
+                </tr>
+                <tr>
+                    <td><strong>Laboratorium Forensik NFI Belanda</strong></td>
+                    <td>Otopsi Toksikologi Jenazah Munir.</td>
+                    <td><strong>Bukan rekaman video, melainkan bukti kimia mutlak:</strong> Ditemukan kandungan senyawa <strong>Arsenik Trioksida (As₂O₃) sebesar 465 mg</strong> di dalam lambung, urine, dan jaringan darah. Jumlah tersebut 3 hingga 5 kali lipat di atas dosis mematikan (<em>lethal dose</em>) standar manusia (100–150 mg), membuktikan arsenik dikonsumsi lewat oral beberapa jam sebelum kematian.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>Disusun berdasarkan Laporan Tim Pencari Fakta (TPF) Kasus Munir (2005), Berkas Putusan Pengadilan Negeri Jakarta Pusat, Putusan Kasasi/Peninjauan Kembali Mahkamah Agung RI, dan Laporan Toksikologi Nederlands Forensisch Instituut (NFI).</p>
+    </footer>
+</div>
+
+</body>
+</html>
